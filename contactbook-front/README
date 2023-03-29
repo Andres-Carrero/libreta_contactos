@@ -1,0 +1,42 @@
+#   PASO A PASO DE LA INSTALACION DEL BACKEND
+#
+#   NOTA: 
+#   Se utilizo nodejs en su version "18.13.0"
+#
+#   -   PASO 1
+#       Se debe crear una base de datos con el nombre "contactBook" en MySQL (Xampp 8.1.6)
+#
+#   -   PASO 2
+#       Mediente el CMD (consola / Simbolo de sistema / terminal) en la carpeta raiz del proyecto, se debe ejecutar
+#       "npm i" o "npm install" para instalar dependencias
+#
+#   -   PASO 3
+#       Se debe ajustar las crendeciales del archivo .env (iniciadas con "DB") y src/database/config/config.json
+#
+#   -   PASO 4
+#       Mediente el CMD (consola / Simbolo de sistema / terminal) se debe acceder a la carpeta src/database
+#
+#   -   PASO 5
+#       Estando en la carpeta src/database se debe ejecutar "npx sequelize-cli db:migrate" para correr las migraciones
+#
+#   -   PASO 6
+#       Estando en la carpeta src/database se debe ejecutar "npx sequelize-cli db:seed:all" para correr los seeders
+#
+#   -   PASO 7
+#       Con el comando "npm start" se iniciara el proyecto (estando en la carpeta raiz)
+#
+#
+#   PASO A PASO DE LA INSTALACION DEL FRONTEND
+#
+#   -   PASO 1
+#       En la carpeta raiz del proyecto, se debe ejecutar "npm i" o "npm install" para instalar dependencias
+#      
+#   -   PASO 2
+#       Con el comando "npm start" se iniciara el proyecto (estando en la carpeta raiz)
+#
+#   NOTA: 
+#   Con el siguiente usuario se pude loguear
+#       admin@Carvajal.com
+#       Carvajal.2023
+#
+#

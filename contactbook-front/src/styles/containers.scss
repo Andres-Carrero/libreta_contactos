@@ -1,0 +1,30 @@
+.container{
+    width: 90%;
+    //-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    //-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    //box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    //border: 1px solid;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titleReturn{
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.iconsReturn{
+    font-size: 30px;
+    color: #006eff;
+}
+
+.iconButton{
+    margin-right: 10px;
+}
